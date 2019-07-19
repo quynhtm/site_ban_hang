@@ -1,0 +1,120 @@
+
+@media (min-width: 1200px){
+    
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+}
+@media (min-width: 768px) and (max-width: 992px) {
+   
+}
+@media (max-width: 768px) {
+	#header .headerRegion {
+	    height: auto;
+		display: inline-block;
+	}
+	.headerRegion .list-menu-header {
+	    display: inline-block;
+	    float: none;
+	    max-width: 100%;
+	    width: 100%;
+		border-bottom: 1px solid #ddd;
+	}
+	.logo{
+		margin: 14px 5px 0;
+	}
+	.list-menu-header li ul.sub {
+	    background: none;
+	    border-bottom-left-radius: 0;
+	    border-bottom-right-radius: 0;
+	    display: block;
+	    position: relative;
+	    width: 100%;
+	}
+	.list-menu-header li {
+	    border-radius: 2px;
+	    padding: 0 5px;
+	    width: 100%;
+	}
+	.list-menu-header li > a {
+	    padding: 0;
+	}
+	.list-menu-header li ul.sub li{
+	    padding: 0;
+	}
+	.list-menu-header li ul.sub li a {
+	    font-weight: normal;
+    	font-weight: normal;
+    	padding: 0 5px;
+	}
+	.list-menu-header li ul.sub li a:hover{
+		text-decoration: underline;
+	}
+	.list-menu-header li ul.sub li a .icon {
+	    background: #ff6600 none repeat scroll 0 0;
+	    border-radius: 100%;
+	    display: inline-block;
+	    height: 8px;
+	    position: relative;
+	    top: -2px;
+	    width: 8px;
+		margin-right:5px;
+	}
+	.navbar {
+   		border: 1px solid transparent;
+    	margin-bottom: 0;
+	}
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+	    border-color: #ddd;
+	}
+	.navbar-inverse .navbar-toggle {
+	    border-color: #fafafa;
+		background:#2374a3;
+		transition: all 0.15s ease-in-out 0s;
+	}
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+	    border-color: #fafafa;
+		background:#50a1d0;
+	}
+	.headerRegion .user-info {
+	    float: left;
+		margin-top: -8px;
+	}
+	.headerRegion .user-logout {
+	    margin-top: -12px;
+	}
+	.showListItem {
+	    overflow-x: scroll;
+	    overflow-y: hidden;
+	}
+	.control-group .control-label {
+	    float: none;
+	    text-align: left;
+	    width: 100%;
+		clear:both;
+	}
+	.control-group .controls {
+	    margin-left: 0;
+	    width: 100%;
+		clear:both;
+	}
+	.form-actions {
+	    padding: 10px 10px 10px 0;
+	}
+	.control-group .controls input[type="text"], 
+	.control-group .controls input[type="password"] {
+	    width: 100%;
+	}
+	.control-group .controls textarea {
+	    max-width: 100%;
+	    min-width: 100%;
+	}
+	.content-order{
+		width:100%;
+	}
+	.item-code label i {
+	    display: none;
+	}
+}

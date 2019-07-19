@@ -1,0 +1,317 @@
+@media (min-width:992px) and (max-width:1200px) {}
+
+@media (min-width:768px) and (max-width:992px) {
+    .container {
+        width: 100%
+    }
+}
+
+@media (max-width:768px) {
+    #header {
+        background: #2796b6;
+    }
+    #header .mbButtonMenu .fa::before{
+        color: #222;
+    }
+    .container {
+        width: 100%
+    }
+    .logo {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 30px 0 15px 0;
+        float: none;
+        display: inline-block;
+        text-align: center
+    }
+    .logo a {
+        position: relative;
+        left: auto;
+        top: auto;
+        height: 60px;
+        background-position: center 0;
+        width: 100%
+    }
+    .memberLine {
+        float: none;
+        width: 100%;
+        margin-top: 5px
+    }
+    .line-top .line {
+        text-align: center
+    }
+    .link-trans .lineimgtop img {
+        width: 30%
+    }
+    .link-trans .lineimgbottom img {
+        width: 62%
+    }
+    .menuFooter {
+        text-align: left
+    }
+    .menuFooter ul li a {
+        border-right: none
+    }
+    .item-post-news {
+        clear: both
+    }
+    .iThumbPost {
+        height: auto
+    }
+    .content-other-product .product {
+        width: 100%;
+        #width: 48%;
+        #margin-right: 2%
+    }
+    .menuTop ul li .v {
+        border-left: none;
+        margin: 0 5px
+    }
+    .postViewHead a {
+        float: none
+    }
+    .box-main-post .item {
+        height: auto
+    }
+    .box-sub-post .iThumbPost {
+        height: auto
+    }
+    .box-sub-post .sub-intro {
+        display: block
+    }
+    .box-sub-post {
+        margin-top: 15px
+    }
+    .trans {
+        margin-bottom: 2px
+    }
+    .iMain {
+        width: 88%;
+        margin-right: 0
+    }
+    .iThumb {
+        width: 10%;
+        height: 300px;
+        margin-right: 2%
+    }
+    .iMain .div-share.google {
+        margin-left: 0
+    }
+    .pInfo {
+        width: 100%;
+        margin-top: 15px
+    }
+    .product-tabs {
+        min-height: 105px
+    }
+    .pInfo .pro-title {
+        font-size: 15px;
+        color: #2796b6;
+        text-transform: uppercase;
+    }
+    .iMain .zoomWindow,
+    .iMain .zoomPup,
+    .iMain .zoomPreload {
+        display: none!important
+    }
+    .bd-center {
+        min-height: auto
+    }
+    .content-popup-show .modal-dialog {
+        width: 90%!important
+    }
+    .logo {
+        margin: 15px 0 15px 0
+    }
+    .logo a {
+        height: auto;
+        width: 50%;
+        margin: 0 auto
+    }
+    .overlay-mb-bg {
+        position: fixed;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        z-index: 2;
+    }
+    .mbButtonMenu {
+        top: 8px;
+        position: absolute;
+        right: -5px
+    }
+    .menuTop {
+        float: none;
+        margin-top: 0;
+        position: fixed;
+        z-index: 200;
+        left: 0;
+        top: 0;
+        background: #2c95b5;
+        width: 85%;
+        height: 100%;
+        display: none;
+        padding-top: 10px;
+    }
+    .menuTop.on {
+        display: block;
+    }
+    .menuTop ul li {
+        float: none;
+        position: relative;
+        width: 100%;
+        padding-left: 20px
+    }
+    .menuTop li ul {
+        left: auto;
+        padding: 0;
+        box-shadow: none;
+        display: inline-block;
+        min-width: 100%;
+        z-index: 999;
+        width: 100%;
+        position: relative;
+        top: auto;
+		background:none;
+    }
+    .menuTop li:hover ul{
+        display: inline-block;
+    }
+    .menuTop li ul li{
+        padding: 0 15px;
+        line-height: 25px;
+    }
+    .menuTop ul li a{
+        color: #fff;
+        font-weight: 700;
+    }
+    .menuTop ul li a:hover{
+        color: #fff;
+    }
+    .menuTop li ul li a{
+        font-style: italic;
+    }
+    .item-trans {
+        width: 32.5%;
+        float: left;
+        padding-right: 0
+    }
+    .mbButtonMenuL {
+        top: 2px;
+        position: absolute;
+        right: -5px
+    }
+    .mbButtonMenuL.navbar-toggle {
+        margin-top: 0;
+        padding: 0 10px;
+        top: -2px;
+        color: #fff;
+    }
+    .mbButtonMenuL:hover,
+    .mbButtonMenu:hover {
+        color: #fff
+    }
+    .memberLine a {
+        color: #fff;
+    }
+    .index .product,
+    .content-other-product .product {
+        width: 48%;
+        margin-right: 2%;
+        height: 360px;
+    }
+    .content-other-product .product {
+        height: 300px
+    }
+    .index .product .linkprod img,
+    .content-other-product .product .linkprod img {
+        height: 260px;
+    }
+    .lineimg a img,
+    .lineimg img {
+        max-width: 45%;
+        margin-right: 5%;
+    }
+    .addressMenu {
+        position: absolute;
+        bottom: -8px;
+        background: #2c95b5;
+        padding-bottom: 5px;
+        border-top: 2px solid #167f9f;
+        color: #fff;
+        display: block;
+        padding-top: 5px;
+        font-style: italic;
+    }
+    .addressMenu .tt {
+        margin-bottom: 5px;
+        height: 25px;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-weight: 700
+    }
+    .line-share-facebook {
+        width: 100%;
+        overflow: hidden
+    }
+    .iThumbPost img {
+        height: auto;
+    }
+    .menuLeft li ul a{
+        font-style: italic;
+    }
+    .content-other-product .product{
+        border-bottom: none;
+    }
+    .list-shop-cart-item th{
+        font-size: 12px;
+    }
+    .line-bg{
+        max-height: 90px;
+        height: auto;
+    }
+    .link-top-head .box-right-head {
+        width: 100%;
+        float: none;
+    }
+    .box-right-head .link-normal {
+        padding-left: 0;
+        display: inline-block;
+        width: 100%;
+    }
+}
+@media (max-width:350px) {
+    .index .product .linkprod img, .content-other-product .product .linkprod img {
+        height: 155px;
+    }
+    .index .product, .content-other-product .product {
+        height: 250px;
+    }
+    .line-bg {
+        max-height: 130px;
+    }
+    .line-bg td{
+        vertical-align: top;
+    }
+    .link-top-head{
+        display: none;
+    }
+    #header .mbButtonMenu .fa::before {
+        color: #fff;
+    }
+    .line-content-prod.cate.view-grid .product{
+        height: 250px;
+    }
+    .line-content-prod.cate.view-grid .product img {
+        height: 160px;
+    }
+    .line-content-prod.cate.view-row .linkprod{
+        margin-right: 0px;
+        width: 100%;
+        height: auto;
+    }
+}
